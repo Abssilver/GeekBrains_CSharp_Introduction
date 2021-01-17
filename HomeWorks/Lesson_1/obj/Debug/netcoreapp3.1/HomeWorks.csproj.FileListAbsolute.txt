@@ -1,0 +1,13 @@
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.exe
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.deps.json
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.runtimeconfig.json
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.runtimeconfig.dev.json
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.dll
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.pdb
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.csprojAssemblyReference.cache
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.AssemblyInfoInputs.cache
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.AssemblyInfo.cs
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.csproj.CoreCompileInputs.cache
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.dll
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.pdb
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.genruntimeconfig.cache

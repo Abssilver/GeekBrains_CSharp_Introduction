@@ -1,0 +1,13 @@
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\bin\Debug\netcoreapp3.1\Lesson_1.exe
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\bin\Debug\netcoreapp3.1\Lesson_1.deps.json
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\bin\Debug\netcoreapp3.1\Lesson_1.runtimeconfig.json
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\bin\Debug\netcoreapp3.1\Lesson_1.runtimeconfig.dev.json
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\bin\Debug\netcoreapp3.1\Lesson_1.dll
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\bin\Debug\netcoreapp3.1\Lesson_1.pdb
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\obj\Debug\netcoreapp3.1\Lesson_1.csprojAssemblyReference.cache
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\obj\Debug\netcoreapp3.1\Lesson_1.AssemblyInfoInputs.cache
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\obj\Debug\netcoreapp3.1\Lesson_1.AssemblyInfo.cs
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\obj\Debug\netcoreapp3.1\Lesson_1.csproj.CoreCompileInputs.cache
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\obj\Debug\netcoreapp3.1\Lesson_1.dll
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\obj\Debug\netcoreapp3.1\Lesson_1.pdb
+C:\GeekBrains\Введение в С#\GeekBrains_CSharp_Introduction\HomeWorks\Lesson_1\obj\Debug\netcoreapp3.1\Lesson_1.genruntimeconfig.cache
