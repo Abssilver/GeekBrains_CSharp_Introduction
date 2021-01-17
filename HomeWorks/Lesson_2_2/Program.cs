@@ -10,6 +10,8 @@ namespace Lesson_2_2
             int monthNumber = default;
             GetUserInput(ref monthNumber);
             Console.WriteLine($"Введенное вами значение соответсвует месяцу: {GetMonthName(monthNumber)}");
+            Console.WriteLine("Нажмите любую клавишу для завершения программы");
+            Console.ReadKey();
         }
         private static void GetUserInput(ref int monthNumber)
         {

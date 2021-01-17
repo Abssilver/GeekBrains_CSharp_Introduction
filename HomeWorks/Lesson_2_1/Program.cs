@@ -13,6 +13,8 @@ namespace Lesson_2_1
             GetTemperature(ref maxDayTemperature, "Введите значение максимальной температуры за сутки");
             Console.WriteLine(
                 $"Среднесуточная температура составляет: {CalculateAverageTemperature(minDayTemperature, maxDayTemperature):f2}");
+            Console.WriteLine("Нажмите любую клавишу для завершения программы");
+            Console.ReadKey();
         }
 
         private static void GetTemperature(ref double temperature, string description)
