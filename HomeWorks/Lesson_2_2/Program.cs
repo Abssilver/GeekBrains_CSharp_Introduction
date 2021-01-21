@@ -7,8 +7,6 @@ namespace Lesson_2_2
         static void Main(string[] args)
         {
             Console.WriteLine("Программа перевода числового значения в название месяца привествует вас");
-            int monthNumber = default;
-            GetUserInput(ref monthNumber);
             Console.WriteLine($"Введенное вами значение соответсвует месяцу: {GetMonthName().ToString()}");
             Console.WriteLine("Нажмите любую клавишу для завершения программы");
             Console.ReadKey();
