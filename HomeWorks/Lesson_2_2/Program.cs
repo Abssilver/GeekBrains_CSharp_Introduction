@@ -2,14 +2,14 @@
 
 namespace Lesson_2_2
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Программа перевода числового значения в название месяца привествует вас");
             int monthNumber = default;
             GetUserInput(ref monthNumber);
-            Console.WriteLine($"Введенное вами значение соответсвует месяцу: {GetMonthName(monthNumber)}");
+            Console.WriteLine($"Введенное вами значение соответсвует месяцу: {GetMonthName().ToString()}");
             Console.WriteLine("Нажмите любую клавишу для завершения программы");
             Console.ReadKey();
         }
@@ -21,26 +21,27 @@ namespace Lesson_2_2
             } while (!Int32.TryParse(Console.ReadLine(), out monthNumber) || monthNumber <= 0);
         }
 
-        private static string GetMonthName(int monthNumber)
+        public static Month GetMonthName()
         {
-            return ((Month)(monthNumber % 12)).ToString();
+            int monthNumber = default;
+            GetUserInput(ref monthNumber);
+            return (Month)(monthNumber % 12);
         }
-        
-        [Flags]
-        private enum Month
-        {
-            December,
-            January,
-            February,
-            March,
-            April,
-            May,
-            June,
-            July,
-            August,
-            September,
-            October,
-            November
-        }
+    }
+    [Flags]
+    public enum Month
+    {
+        December,
+        January,
+        February,
+        March,
+        April,
+        May,
+        June,
+        July,
+        August,
+        September,
+        October,
+        November
     }
 }
