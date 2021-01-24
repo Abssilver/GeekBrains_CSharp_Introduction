@@ -11,7 +11,7 @@ namespace Lesson_3_1
             var matrix = GenerateMatrix(0, 9);
             Console.WriteLine("Сгенерированная матрица:");
             PrintMatrix(matrix);
-            Console.WriteLine($"Числа на главнй диагонали: {GetMainDiagonalNumbers(matrix)}");
+            Console.WriteLine($"Числа на главной диагонали: {GetMainDiagonalNumbers(matrix)}");
             Console.WriteLine("Нажмите любую клавишу для завершения программы");
             Console.ReadKey();
         }
@@ -48,7 +48,7 @@ namespace Lesson_3_1
             int size = default;
             GetUserInput(ref size);
             int [,] matrix = new int[size,size];
-            FillMatrixWitRandomNumber(ref matrix, minValue,maxValue);
+            FillMatrixWitRandomNumber(matrix, minValue,maxValue);
             return matrix;
         }
         private static void GetUserInput(ref int matrixSize)
@@ -61,7 +61,7 @@ namespace Lesson_3_1
             } while (!Int32.TryParse(Console.ReadLine(), out matrixSize) || matrixSize <= 0);
         }
 
-        private static void FillMatrixWitRandomNumber(ref int[,] matrix, int minValue, int maxValue)
+        private static void FillMatrixWitRandomNumber(int[,] matrix, int minValue, int maxValue)
         {
             Random rand = new Random();
             for (int i = 0; i < matrix.GetLength(0); i++)
