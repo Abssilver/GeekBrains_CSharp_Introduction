@@ -56,7 +56,7 @@ namespace Lesson_4_3
                 success = false;
                 Console.WriteLine("{0}\n{1}",
                     "Введите число, соответсвующее месяцу года.",
-                    "Примеры ввода: 10");
+                    "Пример ввода: 10");
                 userInput = Console.ReadLine()?.Trim();
                 if (userInput != null)
                 {
