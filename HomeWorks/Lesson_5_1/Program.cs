@@ -1,10 +1,9 @@
 ﻿using System;
 using System.IO;
-using System.IO.Compression;
 
 namespace Lesson_5_1
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -28,7 +27,7 @@ namespace Lesson_5_1
             return userInput;
         }
 
-        static void SaveData(string fileName, string data, string filepath = null, bool append = false)
+        public static void SaveData(string fileName, string data, string filepath = null, bool append = false)
         {
             filepath ??= Path.Combine(Directory.GetCurrentDirectory(), fileName);
             try
@@ -37,9 +36,16 @@ namespace Lesson_5_1
                 {
                     writer.WriteLine(data);
                 }
-                Console.WriteLine("{0}\n{1}",
-                    "Запись успешно завершена",
-                    $"Расположение файла: {filepath}");
+                string outputMessage = null;
+                if (append)
+                {
+                    outputMessage = "Дозапись успешно произведена";
+                }
+                else
+                {
+                    outputMessage = $"Запись успешно завершена\nРасположение файла: {filepath}";
+                }
+                Console.WriteLine(outputMessage);
             }
             catch (Exception exception)
             {
