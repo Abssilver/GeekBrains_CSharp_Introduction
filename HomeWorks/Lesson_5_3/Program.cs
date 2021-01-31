@@ -55,13 +55,20 @@ namespace Lesson_5_3
         static void SaveData(string fileName, byte[] data, string filepath = null)
         {
             filepath ??= Path.Combine(Directory.GetCurrentDirectory(), fileName); 
-            using (BinaryWriter writer = 
-                new BinaryWriter(File.Open(filepath, FileMode.Create, FileAccess.Write)))
-            { 
-                foreach (var element in data) 
-                    writer.Write(element); 
+            try
+            {
+                using (BinaryWriter writer = 
+                    new BinaryWriter(File.Open(filepath, FileMode.Create, FileAccess.Write)))
+                { 
+                    foreach (var element in data) 
+                        writer.Write(element); 
+                }
+                Console.WriteLine($"Данные успешно записаны.\nРасположение файла: {filepath}");
             }
-            Console.WriteLine($"Данные успешно записаны.\nРасположение файла: {filepath}");
+            catch (Exception exception)
+            {
+                Console.WriteLine($"Ошибка записи:\n{exception.Message}");
+            }
         }
         static byte[] ReadData(string fileName, string filepath = null)
         {
