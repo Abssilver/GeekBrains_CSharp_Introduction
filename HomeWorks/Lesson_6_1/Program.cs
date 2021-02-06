@@ -45,7 +45,7 @@ namespace Lesson_6_1
             object userInput;
             do
             {
-                userInput = GetUserInput();
+                userInput = GetUserInput().ToLower();
                 var input = int.TryParse(userInput.ToString(), out int number) ? number : userInput;
                 switch (input)
                 {
