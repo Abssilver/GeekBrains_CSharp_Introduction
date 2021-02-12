@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Lesson_8.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UserAge" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="UserOccupation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Greeting_p1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">I'm looking for someone to share in an adventure.</Value>
+    </Setting>
+    <Setting Name="Greeting_p2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Are you with me, {username}, the {occupation}? Нave you been able to muster up the courage in {age} years?</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
